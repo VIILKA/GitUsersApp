@@ -1,0 +1,61 @@
+name: g_hub
+description: "App about users from Github"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  dio: ^5.4.2+1
+  flutter_bloc: ^8.1.5
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.19
+  easy_localization: ^3.0.5
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/appicon.png
+    - assets/images/splashIcon.png
+    - assets/translations/
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/appicon.png"
+
+flutter_native_splash:
+  color: "#24292e"
+  image: assets/images/splashIcon.png
+ 
+
+  android_12:
+    image: assets/images/splashIcon.png
+    icon_background_color: "#24292e"
+    
+  
+
+ 
+
+  web: false
+    
+ 
